@@ -23,16 +23,16 @@ const EventPage = () => {
   if (!event) return <div>No event found for ID: {id}</div>;
 
   return (
-    <div className="py-10 px-3 sm:px-10 md:px-20 min-h-screen inline-flex flex-col gap-y-6 mx-auto ">
+    <div className="py-10 px-3 sm:px-10 md:px-20 min-h-screen flex flex-col items-center gap-y-6 mx-auto ">
       <div className="flex flex-col gap-y-3">
         <h3 className="font-bold text-4xl text-[#156b2c]">{event.title}</h3>
         <p className="font-semibold text-xl">{event.place}</p>
       </div>
-      <div className="flex flex-col sm:flex-row items-center  gap-7">
+      <div className="flex flex-col sm:flex-row items-center   gap-7">
         <img
           src={event.imageUrl}
           alt={event.title}
-          className="max-h-[400px] max-w-[400px]"
+          className="h-[250px] w-[250px] sm:h-[400px] sm:w-[400px]"
         />
         <div
           key={event.id}
