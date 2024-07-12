@@ -2,7 +2,9 @@ const Contact = () => {
   return (
     <section className="mx-auto mt-10 flex flex-col  min-h-screen max-w-7xl px-6 lg:px-12 overflow-hidden">
       <div className="space-y-6 text-center">
-        <h1 className="text-4xl font-bold">Contact</h1>
+        <h1 className="text-4xl font-bold" data-testid="heading-contact">
+          Contact
+        </h1>
       </div>
 
       <h2 className="font-bold py-4">Important</h2>

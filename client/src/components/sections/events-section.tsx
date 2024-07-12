@@ -96,7 +96,10 @@ const EventsSection = ({
               </div>
             </div>
             <div className="w-full hidden md:flex flex-col items-center gap-y-1 p-5">
-              <Button className="flex items-center gap-x-2 bg-[#31ff38] hover:bg-[#156b2c]">
+              <Button
+                className="flex items-center gap-x-2 bg-[#31ff38] hover:bg-[#156b2c]"
+                data-testid="tickets-btn"
+              >
                 {" "}
                 <Ticket /> TICKETS
               </Button>

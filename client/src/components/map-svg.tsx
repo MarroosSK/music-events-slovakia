@@ -20,6 +20,7 @@ const MapSvg = ({
     >
       <g id="features">
         <path
+          data-testid="žilina"
           className={`district ${
             selectedRegions?.includes("Žilina") ? "active" : ""
           }`}

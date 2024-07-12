@@ -20,7 +20,7 @@ const EventPage = () => {
 
   const event = data?.eventsById;
 
-  if (!event) return <div>No event found for ID: {id}</div>;
+  if (!event) return <div>No event found</div>;
 
   return (
     <div className="py-10 px-3 sm:px-10 md:px-20 min-h-screen flex flex-col items-center gap-y-6 mx-auto ">
@@ -65,7 +65,10 @@ const EventPage = () => {
             </div>
           </div>
           <div className="w-full flex flex-col items-center gap-y-1  p-5">
-            <Button className="flex items-center gap-x-2 bg-[#31ff38] hover:bg-[#156b2c]">
+            <Button
+              className="flex items-center gap-x-2 bg-[#31ff38] hover:bg-[#156b2c]"
+              data-testid="tickets-btn"
+            >
               {" "}
               <Ticket /> TICKETS
             </Button>

@@ -1,0 +1,32 @@
+export const mockEventsData = {
+  allEvents: [
+    {
+      id: "1",
+      title: "Mock Event 1",
+      place: "Sample Place",
+      imageUrl: "sample.jpg",
+      region: "Sample Region",
+      town: "Sample Town",
+      startDate: "2024-07-15",
+      endDate: "2024-07-16",
+      startTime: "09:00",
+      endTime: "17:00",
+      typeOfEvent: "Sample Type",
+      createdAt: "2024-07-12T12:00:00Z",
+    },
+    {
+      id: "2",
+      title: "Mock Event 2",
+      place: "Sample Place",
+      imageUrl: "sample.jpg",
+      region: "Sample Region",
+      town: "Sample Town",
+      startDate: "2024-07-15",
+      endDate: "2024-07-16",
+      startTime: "09:00",
+      endTime: "17:00",
+      typeOfEvent: "Sample Type",
+      createdAt: "2024-07-12T12:00:00Z",
+    },
+  ],
+};
